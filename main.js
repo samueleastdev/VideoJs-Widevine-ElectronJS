@@ -42,6 +42,8 @@ function createWindow() {
 
 
     win.webContents.openDevTools()
+    // Working Shaka player demo
+    //win.loadURL('https://shaka-player-demo.appspot.com/')
     win.loadURL('https://s3cast.com/test/')
 }
 
