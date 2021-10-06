@@ -1,0 +1,17 @@
+{
+  "name": "widevineVideoJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "git+https://github.com/castlabs/electron-releases.git#v15.0.0-wvvmp",
+    "video.js": "^7.15.4",
+    "videojs-contrib-eme": "^3.9.0"
+  }
+}
